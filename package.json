@@ -1,6 +1,6 @@
 {
   "name": "quill-mobile-view",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quill rich text editor module to add a button inside the toolbar that will allow you to change the editor width to adapt it to a mobile view",
   "main": "dist/quill-mobile-view.min.js",
   "scripts": {
