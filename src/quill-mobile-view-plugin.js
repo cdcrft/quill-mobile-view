@@ -40,4 +40,4 @@ class MobileViewPlugin {
     }
 }
 
-module.exports = MobileEditor;
+module.exports = MobileViewPlugin;
