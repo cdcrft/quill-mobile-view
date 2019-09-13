@@ -1,0 +1,33 @@
+{
+  "name": "quill-mobile-view",
+  "version": "1.0.0",
+  "description": "Quill rich text editor module to add a button inside the toolbar that will allow you to change the editor width to adapt it to a mobile view",
+  "main": "dist/quill-mobile-view.min.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdcrft/quill-mobile-view.git"
+  },
+  "keywords": [
+    "quill",
+    "quilljs",
+    "mobile",
+    "size"
+  ],
+  "author": "cdcrft",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cdcrft/quill-mobile-view/issues"
+  },
+  "homepage": "https://github.com/cdcrft/quill-mobile-view#readme",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "terser-webpack-plugin": "^2.0.1",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  }
+}
