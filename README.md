@@ -43,19 +43,6 @@ Copy dist/ content inside you web root folder
 <script src="quill-mobile-view.min.js"></script>
 ```
 
-### Usage constraints 
-
-In order for this module to work, your quill editor tag should be inside its own container.
-This module will look for the .quill tag parent, and once found, will change its size.
-
-```html
-<div class="quill-container">
-    <div class="quill">
-    </div>
-</div>
-```
-
 ## Things left to do
 
 - Give the possibility to add/remove screen sizes inside the control
-- Find a better solution than changing the container size

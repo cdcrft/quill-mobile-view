@@ -33,10 +33,14 @@ class MobileViewPlugin {
     }
 
     onUpdate(event) {
-        let container = document.querySelector('.quill').parentNode;
+        let container = this.quill.container;
+        let toolbar = this.quill.getModule('toolbar').container;
         let dimensions = this.options[event.target.dataset.value];
+
+        // Set dimensions
         container.style.width = dimensions[0];
         container.style.height = dimensions[1];
+        toolbar.style.width = dimensions[0];
     }
 }
 
