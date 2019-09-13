@@ -13,12 +13,11 @@ $ npm i quill-mobile-view --save
 ### With webpack
 
 ```javascript
-import QuillMobileView from 'quill-mobile-view';
-import { QuillMobileViewOptions } from 'quill-mobile-view';
+import * as mobileView from 'quill-mobile-view';
 // Css is in a separate file, if you use webpack, you need a css loader
 import 'quill-mobile-view/dist/quill-mobile-view.css';
 
-Quill.register('modules/quillMobileView', QuillMobileView);
+Quill.register('modules/quillMobileView', mobileView.module);
 
 var quill = new Quill(editor, {
     // ...
@@ -27,7 +26,7 @@ var quill = new Quill(editor, {
         quillMobileView: {},
         toolbar: [
             // ... The toolbar config you wish to put before the mobile view control
-            QuillMobileViewOptions,
+            mobileView.options,
             // ... The toolbar config you wish to put after the mobile view control
         ]
     }
