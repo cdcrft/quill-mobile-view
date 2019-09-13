@@ -15,11 +15,11 @@ module.exports = {
           }), new OptimizeCSSAssetsPlugin({})],
     },
     entry: {
-        'quill-mobile-view.min.js': './src/quill-mobile-view.js',
+        'quill-mobile-view.min': './src/quill-mobile-view.js',
     },
     output: {
         path: __dirname + '/dist/',
-        filename: '[name]'
+        filename: '[name].js'
     },
     plugins: [
         new MiniCssExtractPlugin({
